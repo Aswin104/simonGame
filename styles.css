@@ -1,0 +1,89 @@
+body {
+  text-align: center;
+  background-color: #6D9886;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+/* .btn { */
+  /* margin: 25px;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  border: 5px solid black;
+  border-radius: 20%; */
+  /* display: inline-block;
+  width: 126px;
+  height: 180px;
+  border: 7px solid black;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; */
+/* } */
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.yellow {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border: 5px solid black;
+  background-color: #e6e600;
+}
+
+.green {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #33cc33;
+  background-color: #6D9886;
+}
+
+.blue {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border: 5px solid black;
+  background: #0000cc;
+  border-radius: 50%
+}
+
+.red {
+  display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: #6D9886;
+    border-radius: 5px;
+    position: relative;
+}
+
+.red:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: "\274c"; /* use the hex value here... */
+    font-size: 80px;
+    color: red;
+    line-height: 100px;
+    text-align: center;
+}
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
